@@ -12,6 +12,11 @@ body{
     color: white;
 }
 
+.container-sm{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
 .container{
     max-width: 800px;
     margin: 0 auto;
@@ -24,6 +29,10 @@ header{
 
 header h1{
     font-size: 45px;
+}
+
+header p {
+    padding: 15px 0px;
 }
 
 img{
