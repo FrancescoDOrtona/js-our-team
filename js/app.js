@@ -56,8 +56,8 @@ for (let i = 0; i < teamMembers.length; i++) {
   const currentMember = teamMembers[i];
   membersCardsDOMElement.innerHTML += `<div class="card">
      <div><img src="./img/${currentMember.picture}"></div>
-     <div>${currentMember.name}</div> 
-     <div>${currentMember.role}</div> 
+     <div class="card__name">${currentMember.name}</div> 
+     <div class="card__role">${currentMember.role}</div> 
      </div>`;
   console.log(currentMember);
 }

@@ -3,9 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    font-family: 'Tilt Neon', sans-serif;
+}
 
 body{
-    background-color: cadetblue;
+    background-image: url(../img/layered-waves-haikei.svg);
+    color: white;
 }
 
 .container{
@@ -18,9 +22,14 @@ header{
     margin: 20px 0px;
 }
 
+header h1{
+    font-size: 45px;
+}
+
 img{
     max-width: 100%;
     border-radius: 15px;
+    box-shadow: 0 0 7px 0.2rem rgba(255, 255, 255, 0.3);
 }
 
 .members-cards{
@@ -35,6 +44,15 @@ img{
     flex-direction: column;
     align-items: center;
     gap: 15px;
-    font-size: 18px;
+    
+}
+
+.card__name{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card__role{
+    font-size: 16px;
     font-weight: bold;
 }
