@@ -33,3 +33,12 @@ teamMembers = [
 ]
 
 console.log(teamMembers)
+
+for (let i = 0; i < teamMembers.length; i++){
+    const currentMember = teamMembers[i]
+    console.log(currentMember)
+
+    for (const property in currentMember) {
+        console.log(`${property}: ${currentMember[property]}`);
+      }
+}
